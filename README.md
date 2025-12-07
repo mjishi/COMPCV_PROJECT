@@ -20,5 +20,7 @@ your computer needs to have a camera built-in or be connected to a webcam.
 # Troubleshooting
 
 if camera isnt detected change the number in
+
 cap = cv2.VideoCapture(0)
+
 from 0 to 1,2, etc. until camera is shown
